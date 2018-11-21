@@ -1,0 +1,63 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+    <item
+        android:drawable="@drawable/frameaa"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/frameab"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/frameac"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/framead"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/frameae"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/frameaf"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/frameag"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/frameah"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/frameai"
+        android:duration="15"/>
+    <item
+        android:drawable="@drawable/frameaj"
+        android:duration="15"/>
+    <item
+        android:drawable="@drawable/frameak"
+        android:duration="15"/>
+    <item
+        android:drawable="@drawable/frameal"
+        android:duration="15"/>
+    <item
+        android:drawable="@drawable/frameam"
+        android:duration="15"/>
+    <item
+        android:drawable="@drawable/framean"
+        android:duration="15"/>
+    <item
+        android:drawable="@drawable/frameao"
+        android:duration="15"/>
+    <item
+        android:drawable="@drawable/frameap"
+        android:duration="15"/>
+    <item
+        android:drawable="@drawable/frameaq"
+        android:duration="15"/>
+    <item
+        android:drawable="@drawable/framear"
+        android:duration="15"/>
+    <item
+        android:drawable="@drawable/frameas"
+        android:duration="15"/>
+    <item
+        android:drawable="@drawable/frameat"
+        android:duration="999999999"/>
+</animation-list>

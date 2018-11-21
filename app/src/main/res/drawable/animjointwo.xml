@@ -1,0 +1,161 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+    <item
+        android:drawable="@drawable/lca"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lcb"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lcc"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lcd"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lce"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lcf"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lcg"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lch"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lci"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lcj"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lck"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lcl"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lcm"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lcn"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lco"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lcp"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lcq"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lcr"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lcs"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lct"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lcu"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lcv"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lcw"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lcx"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lcy"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lcz"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lda"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldb"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldc"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldd"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lde"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldf"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldg"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldh"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldi"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldj"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldk"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldl"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldm"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldn"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldo"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldp"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldq"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldr"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/lds"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldt"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldu"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldv"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldw"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldx"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldy"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/ldz"
+        android:duration="999999999" />
+
+
+</animation-list>
