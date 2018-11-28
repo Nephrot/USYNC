@@ -18,13 +18,13 @@ public class PersonalInfo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_personal_info);
-        TextView user = (TextView) findViewById(R.id.gender);
-        Typeface typeface = Typeface.createFromAsset(getAssets(), "Cabin.ttf");
+        TextView user = (TextView) findViewById(R.id.description);
+        Typeface typeface = Typeface.createFromAsset(getAssets(), "Cabin-Bold.ttf");
         user.setTypeface(typeface);
-        DatePicker simpleDatePicker = (DatePicker)findViewById(R.id.simpleDatePicker); // initiate a date picker4
+        DatePicker simpleDatePicker = (DatePicker) findViewById(R.id.simpleDatePicker); // initiate a date picker4
         simpleDatePicker.updateDate(2000, 10, 6);
         simpleDatePicker.setSpinnersShown(true);
         simpleDatePicker.setCalendarViewShown(false);
     }
-
 }
+

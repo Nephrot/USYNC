@@ -9,6 +9,8 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import com.facebook.shimmer.ShimmerFrameLayout;
+
 public class JoinUsync extends AppCompatActivity implements Animation.AnimationListener {
 
     ImageView header;
@@ -26,13 +28,9 @@ public class JoinUsync extends AppCompatActivity implements Animation.AnimationL
         animFadeIn.setAnimationListener(this);
         header.setVisibility(View.VISIBLE);
         header.startAnimation(animFadeIn);
-        Button btn = (Button)findViewById(R.id.button1);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(JoinUsync.this, PersonalInfo.class));
-            }
-        });
+        ShimmerFrameLayout container =
+                (ShimmerFrameLayout) findViewById(R.id.shimmer_view_container);
+        container.startShimmer();
     }
     @Override
     public void onAnimationEnd(Animation animation) {

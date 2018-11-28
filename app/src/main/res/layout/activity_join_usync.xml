@@ -24,48 +24,39 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"
-        android:src="@drawable/ytho" />
+        android:src="@drawable/registeruser" />
 
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_above="@+id/mLlayoutBottomButtons"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/shimmer_view_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="WELCOME TO USYNC\nThe project to connect you and others across a single platform has begun.\n\nSwipe Left to begin."
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                />
+
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
     </RelativeLayout>
 
-    <LinearLayout
-        android:id="@+id/mLlayoutBottomButtons"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:orientation="vertical"
-        android:layout_gravity="bottom"
-        android:layout_marginBottom="50dp"
-        >
 
-        <Button
-            android:id="@+id/button1"
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:textColor="@color/colorAccent"
-            android:text="Create A Default User"
-
-            android:background="@drawable/createuser_bg"/>
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:layout_weight="1"
-            android:background="@drawable/createuser_bg"
-            android:text="Create A Custom User"
-
-            android:textColor="@color/colorAccent" />
-    </LinearLayout>
 
 
     <android.support.design.widget.AppBarLayout
