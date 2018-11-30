@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"
-        android:src="@drawable/register" />
+        android:src="@drawable/createaccount" />
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
@@ -22,7 +22,7 @@
         android:layout_centerInParent="true"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
-
+        android:layout_gravity="center"
         android:orientation="vertical">
 
 
@@ -31,7 +31,8 @@
         <RelativeLayout
             android:id="@+id/rellay1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
             <LinearLayout
                 android:id="@+id/something1"
                 android:layout_width="match_parent"
